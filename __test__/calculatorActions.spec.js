@@ -8,8 +8,8 @@ describe('>>>A C T I O N --- Test calculatorActions',()=>{
     });
 
     it('+++ actionCreator subtractInputs', () => {
-        const subtract = subtractInputs(-55)
-        expect(subtract).toEqual({type:"SUBTRACT_INPUTS",output:-55})
+        const subtract = subtractInputs(-56)
+        expect(subtract).toEqual({type:"SUBTRACT_INPUTS",output:-56})
     });
 });
 //*******************************************************************************************************
